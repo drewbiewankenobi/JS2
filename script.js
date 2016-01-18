@@ -1,0 +1,7 @@
+var response = prompt("Type a word y'all.")
+console.log ("You submitted: " + response)
+console.log ("Word length: " + response.length)
+console.log ("In lower case, that's " + response.toLowerCase())
+console.log ("In all caps, that's " + response.toUpperCase())
+console.log ("An example: You have typed the word " + response)
+console.log ("Subword: " + response.substring(1,4))
